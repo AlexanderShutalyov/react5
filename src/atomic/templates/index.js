@@ -1,0 +1,1 @@
+export {default as HotelsTemplate} from "./HotelsTemplate/HotelsTemplate";

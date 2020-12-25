@@ -1,0 +1,27 @@
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftContent {
+    width: 50%;
+    height: 100%;
+    display:inline-block;
+}
+.rightContent {
+    float: right;
+    width: 50%;
+    height: 100%;
+    display:inline-block;
+}
+.mainContent {
+    margin-top: 2%;
+}
+.topContent {
+    z-index: 100 ;
+    width: 100%;
+    height: 3%;
+    border: 2px solid black;
+    position: fixed;
+    background: #ccc;
+}
