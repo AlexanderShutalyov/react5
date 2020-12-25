@@ -3,8 +3,6 @@ import { HotelsTemplate } from "../src/atomic/templates/index";
 import {HotelListContextProvider} from "../src/context/HotelListContext/HotelListContext";
 
 const Hotels = () => {
-    // const { userContext } = useContext();
-
     return (
         <React.Fragment>
             <HotelListContextProvider>

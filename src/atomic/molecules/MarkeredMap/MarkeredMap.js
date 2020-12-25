@@ -3,7 +3,6 @@ import styles from "./MarkeredMap.module.css"
 import { MyMapComponent } from '../../atoms/index'
 
 const MarkeredMap = () => {
-
     let isMarkerShown = true;
     return (
         <div className={styles.MapContainer}>
